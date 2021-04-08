@@ -155,5 +155,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '/prakharbhardwaj.github.io-v2',
 };
