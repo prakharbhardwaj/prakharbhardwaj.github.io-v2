@@ -33,7 +33,35 @@ const GlobalStyle = createGlobalStyle`
 
     --border-radius: 4px;
     --nav-height: 100px;
+
+  @media (min-width: 1400px) and (max-width: 1920px) {
     --nav-scroll-height: 110px;
+  }
+  @media (min-width: 992px) and (max-width: 1920px) {
+      --nav-scroll-height: 90px;
+  }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+      --nav-scroll-height: 90px;
+  }
+  @media (min-width: 992px) and (max-width: 1169px) {
+      --nav-scroll-height: 90px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+      --nav-scroll-height: 70px;
+  }
+  @media (max-width: 767px) {
+      --nav-scroll-height: 70px;
+  }
+  @media only screen and (max-width: 480px) {
+      --nav-scroll-height: 70px;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 360px) {
+      --nav-scroll-height: 70px;
+  }
+  @media only screen and (min-width: 280px) and (max-width: 319px) {
+      --nav-scroll-height: 50px;
+  }
+    
 
     --tab-height: 42px;
     --tab-width: 120px;

@@ -42,6 +42,22 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: var(--transition);
+    cursor: pointer;
+
+    color: var(--green);
+
+    &.inline-link {
+      ${({ theme }) => theme.mixins.inlineLink};
+    }
+  }
 `;
 
 const Hero = () => {
@@ -57,7 +73,7 @@ const Hero = () => {
   const three = (
     <h3 className="medium-heading">
       Software Engineer at{' '}
-      <a href="https://gogroup.tech/" target="_blank">
+      <a href="https://gogroup.tech/" target="_blank" rel="noreferrer">
         <b>Go Group</b>
       </a>
     </h3>

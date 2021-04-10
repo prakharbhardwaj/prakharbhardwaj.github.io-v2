@@ -59,11 +59,60 @@ const StyledNav = styled.nav`
   counter-reset: item 0;
   z-index: 12;
 
-  .logo {
-    ${({ theme }) => theme.mixins.flexCenter};
-    width: 100px;
-    height: 100px;
-    padding-top: 5px;
+  @media (min-width: 1400px) and (max-width: 1920px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 100px;
+      padding-top: 5px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1920px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 80px;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 80px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1169px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 80px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 60px;
+    }
+  }
+  @media (max-width: 767px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 60px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 60px;
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 360px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 60px;
+    }
+  }
+  @media only screen and (min-width: 280px) and (max-width: 319px) {
+    .logo {
+      ${({ theme }) => theme.mixins.flexCenter};
+      width: 40px;
+    }
   }
 `;
 

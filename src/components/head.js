@@ -46,6 +46,15 @@ const Head = ({ title, description, image }) => {
 
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <meta
+        name="robots"
+        content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+      />
+      <meta
+        name="keywords"
+        content="Prakhar, Prakahr Bhardwaj, Prakhar Prakash Bhardwaj, iOS Developer, Full Stack Developer, Software Engineer, Nodejs, MongoDB, Git"
+      />
+      <meta name="thumbnail" content="https://www.prakharbhardwaj.com/icons/favicon-32x32.png" />
 
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />

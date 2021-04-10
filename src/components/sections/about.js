@@ -129,10 +129,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Prakhar and I enjoy developing and contributing to the products that can make
-              a beneficial impact on the dependent organization and audience. Skilled in Backend &
-              iOS Development my objective is to emphasise the efficient utilization of technical
-              knowledge and experience to enhance my productivity and learn new technologies along.
+              Hi, I'm <b>Prakhar Prakash Bhardwaj</b> and I enjoy developing and contributing to the
+              products that can make a beneficial impact on the dependent organization and audience.
+              Skilled in Backend & iOS Development my objective is to emphasise the efficient
+              utilization of technical knowledge and experience to enhance my productivity and learn
+              new technologies along.
             </p>
 
             <p>

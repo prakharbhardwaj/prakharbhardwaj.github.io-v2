@@ -2,9 +2,8 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Prakhar Prakash Bhardwaj',
-    description:
-      'A software engineer, who is passionate about making open-source more accessible, creating technology to elevate people, and building community.',
+    title: 'Prakhar Prakash Bhardwaj - Software Engineer at Go Group (C20Y, Berlin)',
+    description: `I'm a software engineer who is passionate about making open-source more accessible, creating technology to elevate people, and building community.`,
     siteUrl: 'https://www.prakharbhardwaj.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@holaprakhar',
@@ -148,11 +147,11 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-45666519-2',
+    //   },
+    // },
   ],
 };
