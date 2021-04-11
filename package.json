@@ -1,11 +1,11 @@
 {
-  "name": "prakharbhardwaj.github.io-v2",
+  "name": "prakharbhardwaj.github.io",
   "description": "Portfolio website",
   "version": "1.0.0",
   "author": "Prakhar Prakash Bhardwaj <prkhrbhardwaj6@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prakharbhardwaj/prakharbhardwaj.github.io-v2"
+    "url": "https://github.com/prakharbhardwaj/prakharbhardwaj.github.io"
   },
   "keywords": [
     "gatsby"
