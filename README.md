@@ -12,4 +12,4 @@
 
 ![demo](https://www.prakharbhardwaj.com/og.png)
 
-Inspored by brittanychiang.com
+Inspired by [brittanychiang.com](brittanychiang.com)
