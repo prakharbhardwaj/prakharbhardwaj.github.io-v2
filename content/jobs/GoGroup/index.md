@@ -8,5 +8,7 @@ range: 'April 2021 - Present'
 url: 'http://gogroup.tech/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Architecting and building scalable cloud communication centres across Europe
+- Project ownership for building communication system between customers and agents over Whatsapp channel
+- Developing data models for companies to analyse the communication between customers and agents
+- Integrating communication centres with CRM like Salesforce, MS Dynamics
