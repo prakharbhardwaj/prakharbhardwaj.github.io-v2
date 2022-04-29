@@ -52,7 +52,7 @@ const Head = ({ title, description, image }) => {
       />
       <meta
         name="keywords"
-        content="Prakhar, Prakahr Bhardwaj, Prakhar Prakash Bhardwaj, iOS Developer, Full Stack Developer, Software Engineer, Nodejs, MongoDB, Git"
+        content="Prakhar, Prakahr Bhardwaj, Prakhar Prakash Bhardwaj, Backend Engineer, Full Stack Developer, Software Engineer, Tech Lead, Nodejs, MongoDB, Git"
       />
       <meta name="thumbnail" content="https://www.prakharbhardwaj.com/icons/favicon-32x32.png" />
 
