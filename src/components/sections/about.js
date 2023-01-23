@@ -142,7 +142,7 @@ const About = () => {
               <a href="http://bonoride.com/">a mobility startup</a>, &{' '}
               <a href="https://www.knowledgly.com/">an edu-tech startup</a> My main focus these days
               is building accessible, inclusive products at Go Group led{' '}
-              <a href="http://c20y.com/">C20Y(Berlin)</a>.
+              <a href="https://terazo.com/">Terazo(Europe)</a>.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

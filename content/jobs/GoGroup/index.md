@@ -1,7 +1,7 @@
 ---
 date: '2021-04-12'
 title: 'Senior Software Engineer'
-company: 'Go Group (C20Y, Berlin)'
+company: 'Go Group (Terazo Europe)'
 short: 'Go Group'
 location: 'Noida, IN'
 range: 'April 2021 - Present'
